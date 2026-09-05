@@ -30,7 +30,7 @@ public class PatientController {
     @Operation(summary = "Get all patients", description = "Retrieve a list of all patients")
     public ResponseEntity<List<PatientResponseDTO>> getAllPatients() {
         System.out.println("Get all patients123");
-        System.out.println("Get all patients123");
+        System.out.println("Get all patients5678");
         return ResponseEntity.ok().body(patientSerivce.getAllPatients());
     }
 
